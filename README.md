@@ -48,7 +48,7 @@ cd DBLFold
 4. If this is the first time you use DBLFold, run the following command to install necessary packages. 
 
 ```
-pip install -r requirements.txt
+pip install -r requirements
 ```
 
 DBLFold can also support GPU acceleration. If you want to utilize GPU, please run the following command instead:
@@ -65,7 +65,7 @@ Remember to specify the current version of your cuda GPU support.
 6. Run DBLFold to predict the potential RNA secondary structure of the given sequence.
 
 ```
-python DBLFold_predict.py -i <input_fasta_file_folder> -o <output_directory>
+python DBLFold_.py -i <input_fasta_file_folder> -o <output_directory>
 ```
 
 The outputs are provided in the <a href="http://rna.urmc.rochester.edu/Text/File_Formats.html#CT">ct</a> format. 
@@ -75,3 +75,12 @@ The outputs are provided in the <a href="http://rna.urmc.rochester.edu/Text/File
 >* -i: The input folder name of the fasta files.
 >
 >* -o: The output directory of the predicted results.
+
+
+Example:
+
+We have prepared a small input example for users to try on:
+
+```
+python DBLFold.py -i example_input -o output
+```

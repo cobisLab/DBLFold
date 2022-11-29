@@ -60,7 +60,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=<version> -c pytorch
 Remember to specify the current version of your cuda GPU support.
 
 
-5. Prepare the input sequence in the <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/>"fasta</a> format. Then put these fasta files in one input folder.
+5. Prepare the input sequence in the <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/">fasta</a> format. Then put these fasta files in one input folder.
 
 6. Run DBLFold to predict the potential RNA secondary structure of the given sequence.
 

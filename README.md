@@ -1,4 +1,4 @@
-#DBLFold (Deep Boosting Folding)
+# DBLFold (Deep Boosting Folding)
 
 ## Related paper:
 Tzu-Hsien Yang* and Li-Chang Teng, "Computational identification of RNA secondary structures using deep boosting learning". (Submitting)
@@ -25,7 +25,7 @@ conda create -n "DBLFold" python=3.8.13
 conda activate DBLFold
 ```
 
-##Steps to Use DBLFold
+## Steps to Use DBLFold
 
 1. Download the codes from the following link and unzip the file. Please skip it if you have done this step.
 
